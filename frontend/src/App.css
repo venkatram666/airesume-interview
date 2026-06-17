@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #00e5ff;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #2c2c2c;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #00e5ff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+a {
+  color: #00e5ff;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.resume-preview,
+.interview-card {
+  margin-top: 20px;
+  padding: 15px;
+  background: #2c2c2c;
+  border-radius: 10px;
+}
+
+.logout-btn {
+  background: crimson;
+  color: white;
+}
